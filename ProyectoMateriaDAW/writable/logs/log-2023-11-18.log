@@ -1,0 +1,228 @@
+CRITICAL - 2023-11-18 02:26:49 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\LoginController.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 02:27:24 --> syntax error, unexpected token "(", expecting "," or ";"
+in APPPATH\Controllers\LoginController.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 02:45:04 --> Too few arguments to function App\Controllers\LoginController::updateUser(), 0 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\LoginController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->updateUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:05:26 --> Cannot call constructor
+in APPPATH\Controllers\LoginController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:06:55 --> Cannot call constructor
+in APPPATH\Controllers\LoginController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:09:55 --> Cannot call constructor
+in APPPATH\Controllers\LoginController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:21:11 --> Cannot call constructor
+in APPPATH\Controllers\LoginController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:21:16 --> Cannot call constructor
+in APPPATH\Controllers\LoginController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:27:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$userModel is deprecated in APPPATH\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:27:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$validation is deprecated in APPPATH\Controllers\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:27:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$userModel is deprecated in APPPATH\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:27:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$validation is deprecated in APPPATH\Controllers\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:28:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$userModel is deprecated in APPPATH\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:28:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$validation is deprecated in APPPATH\Controllers\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:29:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$userModel is deprecated in APPPATH\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:29:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$validation is deprecated in APPPATH\Controllers\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:38:56 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:39:11 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:40:12 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:42:48 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:48:19 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:48:20 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:49:07 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:50:40 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:50:59 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(29): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-11-18 03:51:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$UserModel is deprecated in APPPATH\Controllers\LoginController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:51:05 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:51:23 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:51:50 --> Call to undefined method App\Models\UserModel::user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Model->__call('user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:51:59 --> Call to undefined method App\Models\UserModel::users
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Model->__call('users', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-18 03:52:12 --> Call to undefined method App\Models\UserModel::get_users
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Model->__call('get_users', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
