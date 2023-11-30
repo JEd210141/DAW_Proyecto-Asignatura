@@ -3,35 +3,30 @@
 namespace App\Controllers;
 use CodeIgniter\View\View;
 
-class Home extends BaseController
+class HomeController extends BaseController
 {
     public function index()
     {
-        $view = new View();
+        return view('/home');
+    }
 
-        $view->setTemplate('main');
+    public function login()
+    {
+        // Redirige al formulario de inicio de sesión
+        return redirect()->to('/login');
+    }
 
-        $view->data['titulo'] = 'Bienvenido al sistema';
+    public function register()
+    {
+        // Redirige al formulario de registro
+        return redirect()->to('/register');
+    }
 
-        $view->data['acciones'] = [
-            [
-                'texto' => 'Iniciar sesión',
-                'enlace' => route('login', 'login'),
-                'clase' => 'btn btn-primary'
-            ],
-            [
-                'texto' => 'Registrarse',
-                'enlace' => route('register', 'register'),
-                'clase' => 'btn btn-primary'
-            ],
-            [
-                'texto' => 'Cancelar',
-                'enlace' => route('welcome', 'welcome'),
-                'clase' => 'btn btn-primary'
-            ]
-        ];
-
-        $view->render('home');
+    public function cancel()
+    {
+        // Agrega lógica de cancelación si es necesario
+        // Puedes redirigir a la página principal o realizar otra acción
+        return redirect()->to('/welcome_message');
     }
     
 }

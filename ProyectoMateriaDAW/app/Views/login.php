@@ -19,7 +19,7 @@
         height: 100vh;
     }
 </style>
-<form>
+<form method="post" action="/login/login">
 <h1 class="text-center">Inicio de Sesion</h1>
   <div class="mb-3">
   <label for="email" class="form-label">Correo Electrónico</label>

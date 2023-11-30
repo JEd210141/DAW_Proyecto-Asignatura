@@ -28,9 +28,9 @@
   <div class="text">
     <h1>Bienvenido al sistema</h1>
   </div>
-    <a href="<?= base_url('login') ?>" class="btn btn-primary">Iniciar sesión</a>
-    <a href="<?= base_url('register') ?>" class="btn btn-primary">Registrarse</a>
-    <a href="<?= base_url('welcome') ?>" class="btn btn-primary">Cancelar</a>
+    <a href="/login" class="btn btn-primary">Iniciar sesión</a>
+    <a href="/register" class="btn btn-primary">Registrarse</a>
+    <a href="/welcome_message" class="btn btn-primary">Cancelar</a>
   </div>
 </body>
 </html>

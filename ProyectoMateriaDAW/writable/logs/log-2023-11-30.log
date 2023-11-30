@@ -1,0 +1,18 @@
+CRITICAL - 2023-11-30 13:42:55 --> Invalid file: "home/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\HomeController.php(10): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-11-30 14:07:55 --> Call to undefined method App\Models\UserModel::get_user
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Model->__call('get_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')

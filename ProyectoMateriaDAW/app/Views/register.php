@@ -18,7 +18,7 @@
     }
 </style>
 
-<body>
+<body method="post" action="/register/register">
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">

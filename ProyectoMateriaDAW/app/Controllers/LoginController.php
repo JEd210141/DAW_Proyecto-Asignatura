@@ -29,7 +29,7 @@ class LoginController extends BaseController
 
         if ($user) {
             // Iniciar sesión y redirigir al panel de control
-            return redirect()->to('home');
+            return redirect()->to('/welcome');
         } else {
             // Mostrar mensaje de error de inicio de sesión
             $data['error'] = 'Credenciales inválidas';

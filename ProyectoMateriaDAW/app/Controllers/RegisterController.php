@@ -35,6 +35,6 @@ class RegisterController extends BaseController
         ]);
 
         // Redirige al usuario a la página de inicio de sesión
-        return redirect()->to('/login');
+        return redirect()->to('/welcome');
     }
 }
