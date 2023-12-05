@@ -1,32 +1,25 @@
 <?php
 
 namespace App\Controllers;
-use CodeIgniter\View\View;
+
+use App\Controllers\BaseController;
 
 class HomeController extends BaseController
 {
     public function index()
     {
-        return view('/home');
+        return view("home");
     }
 
-    public function login()
+    public function administrador()
     {
-        // Redirige al formulario de inicio de sesión
-        return redirect()->to('/login');
+        return view('admin_login');
     }
 
-    public function register()
+    public function empleado()
     {
-        // Redirige al formulario de registro
-        return redirect()->to('/register');
+        return view('employe_login');
     }
 
-    public function cancel()
-    {
-        // Agrega lógica de cancelación si es necesario
-        // Puedes redirigir a la página principal o realizar otra acción
-        return redirect()->to('/welcome_message');
-    }
-    
+
 }

@@ -5,13 +5,21 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+//Inicio
 $routes->get('/', 'HomeController::index');
-$routes->get('/login', 'LoginController::index');
-$routes->post('/login/login', 'LoginController::login');
-$routes->get('/logout', 'LoginController::logout');
-$routes->get('/register', 'RegisterController::index');
-$routes->post('/register/register', 'RegisterController::register');
-$routes->get('/dashboard', 'DashboardController::index');
-$routes->get('/eventos', 'EventosController::index');
-$routes->post('/eventos', 'EventosController::guardar');
-$routes->get('/welcome', 'WelcomeController::index');
+$routes->get('home', 'HomeController::index');
+
+//Administrador
+$routes->get('admin_login', 'HomeController::administrador');
+$routes->get('admin/login', 'AdminController::login');
+$routes->post('admin/login', 'AdminController::login');
+$routes->get('admin/home', 'AdminController::regresar');
+$routes->get('admin/cerrar_sesion', 'AdminController/cerrar_sesion');
+
+//Empleado
+$routes->get('employe_login', 'HomeController::empleado');
+$routes->get('employe/login', 'EmployeController::login');
+$routes->post('employee/login', 'EmployeController::login');
+$routes->get('employe/home', 'EmployeController::regresar');
+$routes->get('employe/cerrar_sesion', 'EmployeController/cerrar_sesion');
+

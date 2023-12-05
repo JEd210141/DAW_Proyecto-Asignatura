@@ -35,5 +35,8 @@ p {
         <h1>Bienvenido al Sistema de Eventos</h1>
         <p>Este es un proyecto de la Materia de Desarrollo De Aplicaciones Web</p>
     </div>
+    <div class="container">
+        
+    </div>
 </body>
 </html>
