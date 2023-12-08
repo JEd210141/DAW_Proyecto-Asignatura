@@ -25,8 +25,8 @@
                 </div>
                 
                 <div class="d-flex justify-content-around mt-4">
-                    <a href="<?= site_url('employe_login') ?>" class="btn btn-primary btn-lg" role="button">Empleado</a>
-                    <a href="<?= site_url('admin_login') ?>" class="btn btn-primary btn-lg" role="button">Administrador</a>
+                    <a href="<?= site_url('empleados/login') ?>" class="btn btn-primary btn-lg" role="button">Empleado</a>
+                    <a href="<?= site_url('admin/login') ?>" class="btn btn-primary btn-lg" role="button">Administrador</a>
                 </div>
             </div>
         </div>

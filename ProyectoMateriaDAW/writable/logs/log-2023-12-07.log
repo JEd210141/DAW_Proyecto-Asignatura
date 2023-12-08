@@ -1,0 +1,465 @@
+CRITICAL - 2023-12-07 13:43:19 --> Class "App\Controllers\Database" not found
+in APPPATH\Controllers\HomeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 13:46:54 --> Call to undefined method CodeIgniter\Database\Database::connect()
+in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 13:52:29 --> Cannot call constructor
+in APPPATH\Controllers\HomeController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 13:55:26 --> Cannot call constructor
+in APPPATH\Controllers\HomeController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 14:01:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ProyectoMateria...', 3306, '', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-12-07 14:01:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `administradores`
+WHERE `username` IS NULL
+AND `password` IS NULL', [], false)
+ 3 APPPATH\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 14:01:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ProyectoMateria...', 3306, '', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-12-07 14:01:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `administradores`
+WHERE `username` IS NULL
+AND `password` IS NULL', [], false)
+ 3 APPPATH\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 14:02:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ProyectoMateria...', 3306, '', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-12-07 14:02:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `administradores`
+WHERE `username` IS NULL
+AND `password` IS NULL', [], false)
+ 3 APPPATH\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 14:02:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ProyectoMateria...', 3306, '', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-12-07 14:02:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `administradores`
+WHERE `username` IS NULL
+AND `password` IS NULL', [], false)
+ 3 APPPATH\Controllers\HomeController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->administrador()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 14:09:43 --> Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(29): view('auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 14:10:22 --> Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(19): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 14:11:10 --> Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(29): view('auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-07 14:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-07 17:25:35 --> mysqli_sql_exception: Table 'proyectomateriadaw.usuarios' doesn't exist in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AuthController.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\AuthController->register()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-07 17:25:35 --> Table 'proyectomateriadaw.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`username`, `password`) VALUES (:username:, :password:)', [...], false)
+ 2 APPPATH\Controllers\AuthController.php(70): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->register()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 17:27:13 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AuthController.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\AuthController->register()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-07 17:27:13 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `password`) VALUES (:username:, :password:)', [...], false)
+ 2 APPPATH\Controllers\AuthController.php(70): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->register()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-07 17:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 17:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 17:32:25 --> The route for "/auth/register" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/auth/register')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\AdminController.php(35): redirect('/auth/register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->cerrar_sesion()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-07 17:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 17:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 17:33:07 --> Invalid file: "navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('navbar', [], true)
+ 3 APPPATH\Views\empleados\empleados_listas.php(16): view('navbar', [])
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 7 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-07 17:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-07 17:43:57 --> mysqli_sql_exception: Table 'proyectomateriadaw.usuarios' doesn't exist in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AuthController.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-07 17:43:57 --> Table 'proyectomateriadaw.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `username` = :username:', [...], false)
+ 2 APPPATH\Controllers\AuthController.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 17:44:21 --> mysqli_sql_exception: Table 'proyectomateriadaw.usuarios' doesn't exist in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AuthController.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-07 17:44:21 --> Table 'proyectomateriadaw.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `username` = :username:', [...], false)
+ 2 APPPATH\Controllers\AuthController.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+ERROR - 2023-12-07 17:45:10 --> mysqli_sql_exception: Table 'proyectomateriadaw.usuarios' doesn't exist in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AuthController.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(942): App\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-07 17:45:10 --> Table 'proyectomateriadaw.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `username` = :username:', [...], false)
+ 2 APPPATH\Controllers\AuthController.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 17:47:32 --> Invalid file: "dasboard_empleados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dasboard_empleados.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dasboard_empleados', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('dasboard_empleados')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 17:47:41 --> Invalid file: "dasboard_empleados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dasboard_empleados.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dasboard_empleados', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('dasboard_empleados')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 17:51:33 --> Invalid file: "dashboard_empleados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_empleados.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_empleados', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('dashboard_empleados')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 17:54:02 --> Invalid file: "dashboard_empleados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_empleados.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_empleados', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('dashboard_empleados')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 17:55:05 --> Invalid file: "dashboard_empleados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_empleados.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_empleados', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('dashboard_empleados')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 18:02:47 --> Invalid file: "#.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('#.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('#', [], true)
+ 3 APPPATH\Controllers\AuthController.php(19): view('#')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-07 18:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 18:10:40 --> Invalid file: "empleados_login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados_login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados_login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('empleados_login')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 18:10:47 --> Invalid file: "empleado_login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleado_login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleado_login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('empleado_login')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 18:10:53 --> Invalid file: "empleado_login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleado_login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleado_login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('empleado_login')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-07 18:30:42 --> Invalid file: "dashboard_login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_login.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(106): view('dashboard_login')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->empleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')

@@ -8,30 +8,8 @@
     <title>Dashboard del Empleado - Órdenes</title>
 </head>
 <body>
+    <?php include(APPPATH . 'Views/navbars/navbar_empleado.php'); ?>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Lavandería</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Órdenes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Perfil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('employe/cerrar_sesion') ?>">Cerrar Sesión</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
         <div class="jumbotron">
             <h1 class="display-4">Bienvenido, Empleado</h1>
             <p class="lead">Aquí puedes gestionar las órdenes y tu perfil.</p>
@@ -50,20 +28,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Aquí deberías iterar sobre las órdenes y mostrar cada una como una fila en la tabla -->
-                        <tr>
-                            <td>1</td>
-                            <td>Cliente 1</td>
-                            <td>2023-12-01</td>
-                            <td>En Proceso</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Cliente 2</td>
-                            <td>2023-12-05</td>
-                            <td>Entregado</td>
-                        </tr>
-                        <!-- Agrega más filas según sea necesario -->
                     </tbody>
                 </table>
             </div>

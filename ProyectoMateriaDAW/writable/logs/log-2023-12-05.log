@@ -89,3 +89,420 @@ in SYSTEMPATH\Router\Router.php on line 479.
  5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:25:14 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:25:30 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:26:16 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:26:55 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:28:13 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:28:20 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:30:09 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\EmployeController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\EmployeController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('employe/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('employe/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:30:55 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\EmployeController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\EmployeController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('employe/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('employe/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:31:02 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\EmployeController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\EmployeController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('employe/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('employe/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:31:22 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:34:06 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:37:04 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:37:04 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:37:04 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:38:58 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:39:43 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:39:48 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:40:45 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:42:15 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:43:46 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 16:46:29 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:10:38 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:18:43 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:18:57 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AdminController/cerrar_sesion"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AdminController/cerrar_sesion')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('admin/cerrar_sesion')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/cerrar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-05 17:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 17:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 17:43:41 --> Undefined variable $load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:43:53 --> Invalid file: "navbarNav.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbarNav.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('navbarNav', [], true)
+ 3 APPPATH\Views\empleados\empleados_listas.php(12): view('navbarNav')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 7 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:44:40 --> Invalid file: "container-fluid.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('container-fluid.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('container-fluid', [], true)
+ 3 APPPATH\Views\empleados\empleados_listas.php(12): view('container-fluid')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 7 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:44:48 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:45:34 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:45:37 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:46:14 --> syntax error, unexpected token "return"
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 3 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:47:31 --> Undefined variable $load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:47:44 --> Undefined variable $class
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $class', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:49:12 --> Undefined variable $load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:50:06 --> Undefined variable $navbar
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navbar', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:50:38 --> Undefined variable $load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 17:50:50 --> Undefined variable $load
+in APPPATH\Views\empleados\empleados_listas.php on line 12.
+ 1 APPPATH\Views\empleados\empleados_listas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-05 18:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 18:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 19:34:45 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\empleados\empleados_listas.php on line 16.
+ 1 APPPATH\Views\empleados\empleados_listas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 19:35:35 --> view(): Argument #3 ($options) must be of type array, bool given, called in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Views\empleados\empleados_listas.php on line 16
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Views\empleados\empleados_listas.php(16): view('navbar', [], true)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 5 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-05 19:41:00 --> Invalid file: "navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('navbar', [], true)
+ 3 APPPATH\Views\empleados\empleados_listas.php(16): view('navbar', [])
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\empleados\\empleados_listas.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados/empleados_listas', [], true)
+ 7 APPPATH\Controllers\EmployeController.php(27): view('empleados/empleados_listas')
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmployeController->empleados()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
