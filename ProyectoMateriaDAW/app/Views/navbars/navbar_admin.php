@@ -8,16 +8,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="<?= base_url('admin/login') ?>">Inicio</a>
+                <a class="nav-link" href="<?= base_url('dashboard_administrador') ?>">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('admin/empleados_listas') ?>">Empleados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<? base_url('admin/clientes_list') ?>">Clientes</a>
+                <a class="nav-link" href="<?= base_url('admin/clientes_list') ?>">Clientes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<? base_url('admin/perfil_admin') ?>">Perfil</a>
+                <a class="nav-link" href="<?= base_url('admin/perfil_admin') ?>">Perfil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link badge-danger" href="<?= base_url('admin/cerrar_sesion') ?>" data-url="/admin/cerrar_session">Cerrar Sesión</a>

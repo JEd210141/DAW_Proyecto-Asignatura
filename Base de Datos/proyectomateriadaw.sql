@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-12-2023 a las 13:15:57
+-- Tiempo de generación: 11-12-2023 a las 14:57:30
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -76,15 +76,19 @@ CREATE TABLE `empleados` (
   `password` varchar(255) NOT NULL,
   `nombre` varchar(255) NOT NULL,
   `departamento` varchar(255) DEFAULT NULL,
-  `correo` varchar(255) DEFAULT NULL
+  `correo` varchar(255) DEFAULT NULL,
+  `status` int(11) DEFAULT 1,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `deleted_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `empleados`
 --
 
-INSERT INTO `empleados` (`id`, `username`, `password`, `nombre`, `departamento`, `correo`) VALUES
-(1, 'jose', 'jose123', 'Jose Eduardo', 'Planchado', 'jose_eduardo@lavanderia.com');
+INSERT INTO `empleados` (`id`, `username`, `password`, `nombre`, `departamento`, `correo`, `status`, `created_at`, `updated_at`, `deleted_at`) VALUES
+(1, 'Eduardo', '$2y$10$aaaktAaUixbD5tMARkYokOFs9U9fon7nPtNpobZNXsxJM7SWvtVe6', 'Jose Eduardo', 'Planchado', 'joseeduardo@lavanderia.com', 1, '2023-12-11 03:14:55', '2023-12-11 07:23:26', NULL);
 
 -- --------------------------------------------------------
 
@@ -106,7 +110,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'Eduardo', '$2y$10$6zD8BOhYp1naLVfhz.nrAOM2SEvr6EL/2fZsrnWm815J3pfVl8KUO', '2023-12-07 11:28:08', '2023-12-07 11:28:08', NULL);
+(1, 'Eduardo', '$2y$10$6zD8BOhYp1naLVfhz.nrAOM2SEvr6EL/2fZsrnWm815J3pfVl8KUO', '2023-12-07 11:28:08', '2023-12-07 11:28:08', NULL),
+(2, 'Emmanuel', '12345', '2023-12-11 07:56:44', '2023-12-11 07:57:08', NULL);
 
 --
 -- Índices para tablas volcadas
@@ -162,7 +167,7 @@ ALTER TABLE `empleados`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -97,19 +97,21 @@ class AuthController extends BaseController
     
             if (!$empleado || !password_verify($password, $empleado->password)) {
                 // Las credenciales son incorrectas
-                throw new \RuntimeException('Usuario o contraseña incorrectos');
+                throw new \RuntimeException('Usuario o contraseña incorrectos.');
             }
     
             // Las credenciales son correctas, autenticar al empleado
             // Puedes realizar acciones adicionales aquí, como establecer sesiones
     
-            // Cargar la vista del dashboard del empleado
-            return view('dashboard_empleado');
+            // Redirigir al dashboard del empleado
+            return redirect()->to('dashboard_empleado');
         } catch (\Exception $e) {
             // Manejar cualquier excepción y redirigir a la vista de login con el mensaje de error
             return view('empleado/login', ['error' => $e->getMessage()]);
         }
     }
+    
+    
 
 
     // Otros métodos para cerrar sesión, restablecer contraseña, etc.

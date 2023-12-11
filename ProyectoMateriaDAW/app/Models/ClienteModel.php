@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class ClienteModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'cliente_models';
+    protected $table            = 'clientes';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';

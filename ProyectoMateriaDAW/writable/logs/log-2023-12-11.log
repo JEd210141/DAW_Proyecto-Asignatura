@@ -1,0 +1,1306 @@
+CRITICAL - 2023-12-11 02:22:13 --> Cannot use try without catch or finally
+in APPPATH\Controllers\AuthController.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-11 02:33:27 --> Cannot use try without catch or finally
+in APPPATH\Controllers\AuthController.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-11 02:33:33 --> Cannot use try without catch or finally
+in APPPATH\Controllers\AuthController.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-11 03:06:19 --> Invalid file: "empleados_listas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados_listas.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados_listas', [], true)
+ 3 APPPATH\Controllers\AdminController.php(21): view('empleados_listas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:07:29 --> Invalid file: "empleados_listas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados_listas.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados_listas', [], true)
+ 3 APPPATH\Controllers\AdminController.php(21): view('empleados_listas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:08:16 --> Invalid file: "empleados_listas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados_listas.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('empleados_listas', [], true)
+ 3 APPPATH\Controllers\AdminController.php(21): view('empleados_listas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:08:46 --> Undefined array key "fecha_actualizacion"
+in APPPATH\Views\admin\empleados_listas.php on line 40.
+ 1 APPPATH\Views\admin\empleados_listas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_actualizacion"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:09:14 --> Undefined array key "fecha_registro"
+in APPPATH\Views\admin\empleados_listas.php on line 40.
+ 1 APPPATH\Views\admin\empleados_listas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_registro"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:09:44 --> Undefined array key "estado"
+in APPPATH\Views\admin\empleados_listas.php on line 41.
+ 1 APPPATH\Views\admin\empleados_listas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:15:12 --> Undefined array key "fecha_actualizacion"
+in APPPATH\Views\admin\empleados_listas.php on line 41.
+ 1 APPPATH\Views\admin\empleados_listas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_actualizacion"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:15:27 --> Undefined array key "estado"
+in APPPATH\Views\admin\empleados_listas.php on line 43.
+ 1 APPPATH\Views\admin\empleados_listas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:15:45 --> Undefined variable $empleado
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 APPPATH\Views\admin\editar_empleado.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 5 APPPATH\Controllers\AdminController.php(94): view('admin/editar_empleado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:18:03 --> Undefined array key "fecha_actualizacion"
+in APPPATH\Views\admin\empleados_listas.php on line 63.
+ 1 APPPATH\Views\admin\empleados_listas.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_actualizacion"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:18:30 --> Undefined array key "estado"
+in APPPATH\Views\admin\empleados_listas.php on line 65.
+ 1 APPPATH\Views\admin\empleados_listas.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:18:34 --> Undefined array key "cr"
+in APPPATH\Views\admin\empleados_listas.php on line 63.
+ 1 APPPATH\Views\admin\empleados_listas.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cr"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(21): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->empleados_listas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:22:11 --> Undefined variable $empleado
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 APPPATH\Views\admin\editar_empleado.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 5 APPPATH\Controllers\AdminController.php(94): view('admin/editar_empleado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:22:14 --> Undefined variable $empleado
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 APPPATH\Views\admin\editar_empleado.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 5 APPPATH\Controllers\AdminController.php(94): view('admin/editar_empleado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:22:48 --> Undefined variable $empleado
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 APPPATH\Views\admin\editar_empleado.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 5 APPPATH\Controllers\AdminController.php(80): view('admin/editar_empleado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:25:07 --> Undefined variable $empleado
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 APPPATH\Views\admin\editar_empleado.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 5 APPPATH\Controllers\AdminController.php(80): view('admin/editar_empleado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:30:12 --> Class "App\Controllers\Empleado" not found
+in APPPATH\Controllers\AdminController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:31:58 --> CodeIgniter\Model::__construct(): Argument #1 ($db) must be of type ?CodeIgniter\Database\ConnectionInterface, string given, called in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AdminController.php on line 77
+in SYSTEMPATH\Model.php on line 146.
+ 1 APPPATH\Controllers\AdminController.php(77): CodeIgniter\Model->__construct('1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:37:21 --> CodeIgniter\Model::__construct(): Argument #1 ($db) must be of type ?CodeIgniter\Database\ConnectionInterface, string given, called in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AdminController.php on line 77
+in SYSTEMPATH\Model.php on line 146.
+ 1 APPPATH\Controllers\AdminController.php(77): CodeIgniter\Model->__construct('1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:38:57 --> App\Controllers\AdminController::editarEmpleado(): Argument #1 ($empleadoModel) must be of type App\Models\EmpleadoModel, string given, called in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942
+in APPPATH\Controllers\AdminController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:53:28 --> Call to undefined method App\Controllers\AdminController::model()
+in APPPATH\Controllers\AdminController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:54:32 --> Cannot use object of type App\Models\EmpleadoModel as array
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 4 APPPATH\Controllers\AdminController.php(86): view('admin/editar_empleado', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:55:27 --> Cannot use object of type App\Models\EmpleadoModel as array
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 4 APPPATH\Controllers\AdminController.php(86): view('admin/editar_empleado', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:56:20 --> Cannot use object of type App\Models\EmpleadoModel as array
+in APPPATH\Views\admin\editar_empleado.php on line 20.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 4 APPPATH\Controllers\AdminController.php(86): view('admin/editar_empleado', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:56:30 --> Cannot use object of type App\Models\EmpleadoModel as array
+in APPPATH\Views\admin\editar_empleado.php on line 20.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 4 APPPATH\Controllers\AdminController.php(86): view('admin/editar_empleado', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:57:52 --> Cannot use object of type App\Models\EmpleadoModel as array
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 4 APPPATH\Controllers\AdminController.php(86): view('admin/editar_empleado', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 03:58:33 --> CodeIgniter\Model::__construct(): Argument #1 ($db) must be of type ?CodeIgniter\Database\ConnectionInterface, string given, called in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\app\Controllers\AdminController.php on line 77
+in SYSTEMPATH\Model.php on line 146.
+ 1 APPPATH\Controllers\AdminController.php(77): CodeIgniter\Model->__construct('1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 04:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 04:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 04:16:15 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:17:20 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:17:27 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:17:49 --> Attempt to assign property "username" on array
+in APPPATH\Controllers\AdminController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:17:58 --> Attempt to assign property "username" on array
+in APPPATH\Controllers\AdminController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:21:27 --> Undefined variable $empleados
+in APPPATH\Views\admin\empleados_listas.php on line 60.
+ 1 APPPATH\Views\admin\empleados_listas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(91): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:22:28 --> Undefined variable $empleados
+in APPPATH\Views\admin\empleados_listas.php on line 60.
+ 1 APPPATH\Views\admin\empleados_listas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\admin\\empleados_listas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/empleados_listas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(91): view('admin/empleados_listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:24:07 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:26:14 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:26:46 --> Call to undefined method App\Models\EmpleadoModel::toObject
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\AdminController.php(82): CodeIgniter\Model->__call('toObject', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 04:27:17 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$nombre is deprecated in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 04:27:17 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$departamento is deprecated in APPPATH\Controllers\AdminController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 04:27:17 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$correo is deprecated in APPPATH\Controllers\AdminController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 04:27:17 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$username is deprecated in APPPATH\Controllers\AdminController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 04:27:17 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$password is deprecated in APPPATH\Controllers\AdminController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 04:27:17 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$status is deprecated in APPPATH\Controllers\AdminController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:27:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(Object(CodeIgniter\Database\MySQLi\Result), null)
+ 4 APPPATH\Controllers\AdminController.php(91): CodeIgniter\Model->update(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 04:56:22 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:02:09 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:03:18 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:03:25 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:04:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$nombre is deprecated in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:04:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$departamento is deprecated in APPPATH\Controllers\AdminController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:04:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$correo is deprecated in APPPATH\Controllers\AdminController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:04:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$username is deprecated in APPPATH\Controllers\AdminController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:04:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$password is deprecated in APPPATH\Controllers\AdminController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:04:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$stat is deprecated in APPPATH\Controllers\AdminController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:04:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(Object(CodeIgniter\Database\MySQLi\Result), null)
+ 4 APPPATH\Controllers\AdminController.php(91): CodeIgniter\Model->update(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:06:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$nombre is deprecated in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:06:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$departamento is deprecated in APPPATH\Controllers\AdminController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:06:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$correo is deprecated in APPPATH\Controllers\AdminController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:06:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$username is deprecated in APPPATH\Controllers\AdminController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:06:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$password is deprecated in APPPATH\Controllers\AdminController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:06:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$stat is deprecated in APPPATH\Controllers\AdminController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:06:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(Object(CodeIgniter\Database\MySQLi\Result), null)
+ 4 APPPATH\Controllers\AdminController.php(91): CodeIgniter\Model->update(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:07:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$nombre is deprecated in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:07:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$departamento is deprecated in APPPATH\Controllers\AdminController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:07:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$correo is deprecated in APPPATH\Controllers\AdminController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:07:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$username is deprecated in APPPATH\Controllers\AdminController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:07:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$password is deprecated in APPPATH\Controllers\AdminController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:07:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$stat is deprecated in APPPATH\Controllers\AdminController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:07:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(Object(CodeIgniter\Database\MySQLi\Result), null)
+ 4 APPPATH\Controllers\AdminController.php(91): CodeIgniter\Model->update(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:09:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$nombre is deprecated in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:09:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$departamento is deprecated in APPPATH\Controllers\AdminController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:09:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$correo is deprecated in APPPATH\Controllers\AdminController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:09:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$username is deprecated in APPPATH\Controllers\AdminController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:09:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$password is deprecated in APPPATH\Controllers\AdminController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+WARNING - 2023-12-11 05:09:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Database\MySQLi\Result::$stat is deprecated in APPPATH\Controllers\AdminController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:09:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(Object(CodeIgniter\Database\MySQLi\Result), null)
+ 4 APPPATH\Controllers\AdminController.php(91): CodeIgniter\Model->update(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:11:31 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:13:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::fill()
+in APPPATH\Controllers\AdminController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:15:50 --> Undefined array key "nombre"
+in APPPATH\Controllers\AdminController.php on line 86.
+ 1 APPPATH\Controllers\AdminController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:18:28 --> Undefined array key "nombre"
+in APPPATH\Controllers\AdminController.php on line 86.
+ 1 APPPATH\Controllers\AdminController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 05:19:11 --> Call to undefined method App\Models\EmpleadoModel::obtenerPorId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\AdminController.php(78): CodeIgniter\Model->__call('obtenerPorId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 05:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 05:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 05:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 05:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:18:04 --> Call to undefined function route()
+in APPPATH\Views\admin\editar_empleado.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editar_empleado', [], true)
+ 4 APPPATH\Controllers\AdminController.php(54): view('admin/editar_empleado', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:19:49 --> Attempt to assign property "nombre" on array
+in APPPATH\Controllers\AdminController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:19:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:19:59 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:20:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:21:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:21:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:23:49 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:24:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:24:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:24:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:28:15 --> Undefined array key "id"
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 APPPATH\Controllers\AdminController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:28:33 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:28:50 --> Undefined array key "id"
+in APPPATH\Controllers\AdminController.php on line 57.
+ 1 APPPATH\Controllers\AdminController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:28:57 --> Undefined array key "id"
+in APPPATH\Controllers\AdminController.php on line 57.
+ 1 APPPATH\Controllers\AdminController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:30:46 --> Undefined array key "id"
+in APPPATH\Controllers\AdminController.php on line 56.
+ 1 APPPATH\Controllers\AdminController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:33:52 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:34:16 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:34:50 --> Class "App\Controllers\EmpleadoEntity" not found
+in APPPATH\Controllers\AdminController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:36:15 --> Class "App\Controllers\EmpleadoEntity" not found
+in APPPATH\Controllers\AdminController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:40:13 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:40:42 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:41:43 --> Call to undefined method App\Models\EmpleadoModel::fill
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\AdminController.php(59): CodeIgniter\Model->__call('fill', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:41:54 --> Call to undefined method App\Models\EmpleadoModel::fill
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\AdminController.php(59): CodeIgniter\Model->__call('fill', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:42:40 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:43:04 --> Call to a member function fill() on array
+in APPPATH\Controllers\AdminController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:47:39 --> Undefined array key "status"
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 06:48:32 --> Undefined array key "status"
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 06:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 06:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 06:58:05 --> Undefined array key "status"
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 07:00:25 --> Undefined array key "status"
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 07:00:36 --> Undefined array key "status"
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 07:01:36 --> Undefined array key "status"
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 07:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 07:08:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 APPPATH\Controllers\AdminController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 07:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 07:13:13 --> Too few arguments to function App\Controllers\AdminController::editarEmpleado(), 1 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\AdminController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 07:14:48 --> Too few arguments to function App\Controllers\AdminController::editarEmpleado(), 1 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\AdminController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 07:14:57 --> Too few arguments to function App\Controllers\AdminController::editarEmpleado(), 1 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\AdminController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 07:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 07:17:51 --> Too few arguments to function App\Controllers\AdminController::editarEmpleado(), 1 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\AdminController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 07:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 07:20:00 --> Too few arguments to function App\Controllers\AdminController::editarEmpleado(), 1 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\AdminController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarEmpleado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 07:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 07:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 08:10:07 --> Undefined variable $data
+in APPPATH\Views\dashboard_administrador.php on line 31.
+ 1 APPPATH\Views\dashboard_administrador.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AdminController.php(29): view('dashboard_administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->dashboard_administrador()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 08:11:09 --> Too few arguments to function App\Controllers\AdminController::dashboard_administrador(), 0 passed in C:\xampp\htdocs\DAW\ProyectoMateriaDAW\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\AdminController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->dashboard_administrador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 08:12:25 --> Undefined variable $data
+in APPPATH\Views\dashboard_administrador.php on line 31.
+ 1 APPPATH\Views\dashboard_administrador.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AdminController.php(29): view('dashboard_administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->dashboard_administrador()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 08:14:21 --> Undefined variable $data
+in APPPATH\Views\dashboard_administrador.php on line 31.
+ 1 APPPATH\Views\dashboard_administrador.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AdminController.php(27): view('dashboard_administrador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->dashboard_administrador()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 08:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 08:17:49 --> Undefined variable $empleados
+in APPPATH\Views\dashboard_administrador.php on line 41.
+ 1 APPPATH\Views\dashboard_administrador.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(42): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 08:18:08 --> Undefined variable $empleados
+in APPPATH\Views\dashboard_administrador.php on line 41.
+ 1 APPPATH\Views\dashboard_administrador.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(42): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 08:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 08:18:26 --> Undefined variable $empleados
+in APPPATH\Views\dashboard_administrador.php on line 41.
+ 1 APPPATH\Views\dashboard_administrador.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(42): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 08:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 08:25:48 --> Undefined variable $empleados
+in APPPATH\Views\dashboard_administrador.php on line 40.
+ 1 APPPATH\Views\dashboard_administrador.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(42): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 08:27:46 --> Undefined variable $empleados
+in APPPATH\Views\dashboard_administrador.php on line 40.
+ 1 APPPATH\Views\dashboard_administrador.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(42): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 08:28:44 --> Undefined variable $empleados
+in APPPATH\Views\dashboard_administrador.php on line 40.
+ 1 APPPATH\Views\dashboard_administrador.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(42): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 08:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 08:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 13:36:45 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getRequestMethod()
+in APPPATH\Controllers\AdminController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->agregarEmpleado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 13:38:31 --> The route for "/admin/nuevo_empleado" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/admin/nuevo_empleado')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\AdminController.php(46): redirect('/admin/nuevo_empleado')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->agregarEmpleado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+INFO - 2023-12-11 13:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 13:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 13:49:28 --> Non-static method CodeIgniter\BaseModel::find() cannot be called statically
+in APPPATH\Controllers\AdminController.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarCliente('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 13:53:43 --> Undefined property: App\Controllers\AdminController::$view
+in APPPATH\Controllers\AdminController.php on line 153.
+ 1 APPPATH\Controllers\AdminController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$view', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarCliente('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')
+CRITICAL - 2023-12-11 13:54:53 --> Undefined property: App\Controllers\AdminController::$view
+in APPPATH\Controllers\AdminController.php on line 153.
+ 1 APPPATH\Controllers\AdminController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$view', 'C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\app\\Controllers\\AdminController.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->editarCliente('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DAW\\ProyectoMateriaDAW\\public\\index.php')

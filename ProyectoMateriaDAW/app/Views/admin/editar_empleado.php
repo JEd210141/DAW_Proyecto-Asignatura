@@ -27,9 +27,30 @@
                 <label for="correo">Correo Electrónico:</label>
                 <input type="email" class="form-control" id="correo" name="correo" value="<?= $empleado['correo'] ?>" required>
             </div>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" value="<?= $empleado['username'] ?>" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="text" class="form-control" id="password" name="password" value="<?= $empleado['password'] ?>" required>
+            </div>
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <input type="text" class="form-control" id="status" name="status" value="<?= $empleado['status'] ?>" required>
+            </div>
             <button type="submit" class="btn btn-primary">Actualizar</button>
         </form>
     </div>
+    <script>
+    function submitForm() {
+        if (!confirm('¿Está seguro de actualizar al empleado?')) {
+            return false;
+        }
+
+        document.getElementById('editar_empleado').submit();
+    }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
